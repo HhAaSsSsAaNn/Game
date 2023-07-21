@@ -1,0 +1,46 @@
+body{
+font-family: 'Courier New', Courier, monospace;
+background-color: antiquewhite ;
+}
+#winner h1{
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+img{
+  max-height: 500px;
+  min-height: 261px;
+}
+
+.game img{
+  max-height: 500px;
+  min-height: 356px;
+}
+
+button{
+  font-size: 1.3rem !important;
+  transition: 2s;
+}
+button:hover{
+  border-width: 3px !important;
+  font-size: 1.5rem !important;
+  background-color: lightgreen !important;
+}
+
+.game h1{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#header{
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.bg-Darkdanger{
+  background-color: darkred;
+}
